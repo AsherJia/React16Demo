@@ -1,0 +1,36 @@
+{
+  "name": "React16Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jiazw <jiazw@ctrip.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf build/",
+    "test": "npm run clean && node ./server/index.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "express": "^4.16.2",
+    "express-no-favicons": "^0.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.1",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-hot-server-middleware": "^0.3.1",
+    "write-file-webpack-plugin": "^4.2.0"
+  }
+}
